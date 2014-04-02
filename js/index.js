@@ -21,6 +21,7 @@ var app = {
         completeElem.className = completeElem.className.split('hide').join('');
     },
     openExternalDoc: function() {
-        ExternalFileUtil.openWith( "http://www.tricedesigns.com/temp/drm.pdf", "com.adobe.pdf" );
+        window.ExternalFileUtil.openWith("http://www.tricedesigns.com/temp/drm.pdf", "com.adobe.pdf");
+        //ExternalFileUtil.openWith( "http://www.tricedesigns.com/temp/drm.pdf", "com.adobe.pdf" );
     }
 };
